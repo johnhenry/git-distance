@@ -1,0 +1,29 @@
+{
+  "name": "git-distance",
+  "version": "1.0.0",
+  "description": "Calculate Levenshtein distance between git branches",
+  "type": "module",
+  "bin": {
+    "git-distance": "./bin/git-distance.mjs"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "dependencies": {
+    "fastest-levenshtein": "^1.0.16"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "git",
+    "levenshtein",
+    "distance",
+    "branch",
+    "diff"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
